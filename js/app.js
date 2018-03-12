@@ -43,11 +43,4 @@ app.controller('homeCtrl', function($scope) {
     $scope.showPhoto = function (index) {
         $scope.$index = index;
     };
-
-    $scope.carouselNext = function() {
-        $('#carousel-parceiros-xs').carousel('next');
-    };
-    $scope.carouselPrev = function() {
-        $('#carousel-parceiros-xs').carousel('prev');
-    };
 });
